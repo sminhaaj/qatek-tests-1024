@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="test_automation" verbose="1" parallel="classes" thread-count="2">
+    <test name="mortgage_calculator">
+        <classes>
+            <class name="automation_test.org.mortgage_calculator.CalculateMortgageRate" />
+            <class name="automation_test.org.mortgage_calculator.CalculateRealAprRate" />
+        </classes>
+    </test>
+</suite>

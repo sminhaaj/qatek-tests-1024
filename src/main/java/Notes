@@ -1,0 +1,6 @@
+
+Framework:
+
+Layer-1: Utilities/Helper
+Layer-2: Command Providers(Modified Selenium methods), Page Objects,....
+Layer-3: Test cases
