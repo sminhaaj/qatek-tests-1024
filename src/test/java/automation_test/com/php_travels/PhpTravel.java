@@ -29,6 +29,7 @@ public class PhpTravel {
         String expectedTitle = "Book Your Free Demo Now - Phptravels";
         Assert.assertEquals(actualTitle, expectedTitle);
         ScreenCapture.getScreenshot(driver);
+        System.out.println(2);
     }
 
     @AfterMethod
